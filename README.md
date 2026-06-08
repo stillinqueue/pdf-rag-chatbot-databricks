@@ -12,6 +12,50 @@ The goal of this project is to learn how a practical Q&A chatbot works using the
 
 ---
 
+## Project Versions
+
+This repository contains two implementations of the PDF Q&A chatbot.
+
+### Version 1: Free Open-Source RAG Implementation
+
+Located in:
+
+```text
+notebooks/
+
+This version uses:
+
+Hugging Face embeddings
+FAISS vector search
+Free FLAN-T5 answer generation
+Retrieval scoring and guardrails
+
+It was built to avoid paid APIs and demonstrate the RAG workflow using free tools.
+
+Version 2: OpenAI, Chroma, LCEL, and Streaming Implementation
+
+Located in:
+
+notebooks_v2_openAI/
+
+This version uses:
+
+OpenAI embeddings
+GPT-based text formatting
+Token-based splitting
+Chroma vector database
+MMR retrieval
+LangChain prompt templates
+LCEL chain composition
+Source-aware answers
+Streaming chatbot output
+
+See the dedicated V2 README here:
+
+notebooks_v2_openAI/README.md
+
+
+
 ## Problem Statement
 
 Many documents contain useful information, but reading through the entire document manually can be time-consuming.

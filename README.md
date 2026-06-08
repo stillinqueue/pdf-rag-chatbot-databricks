@@ -22,37 +22,44 @@ Located in:
 
 ```text
 notebooks/
+```
 
 This version uses:
 
-Hugging Face embeddings
-FAISS vector search
-Free FLAN-T5 answer generation
-Retrieval scoring and guardrails
+* Hugging Face embeddings
+* FAISS vector search
+* Free FLAN-T5 answer generation
+* Retrieval scoring and guardrails
 
-It was built to avoid paid APIs and demonstrate the RAG workflow using free tools.
+It was built to avoid paid APIs and demonstrate the RAG workflow using free open-source tools.
 
-Version 2: OpenAI, Chroma, LCEL, and Streaming Implementation
+### Version 2: OpenAI, Chroma, LCEL, and Streaming Implementation
 
 Located in:
 
+```text
 notebooks_v2_openAI/
+```
 
 This version uses:
 
-OpenAI embeddings
-GPT-based text formatting
-Token-based splitting
-Chroma vector database
-MMR retrieval
-LangChain prompt templates
-LCEL chain composition
-Source-aware answers
-Streaming chatbot output
+* OpenAI embeddings
+* GPT-based text formatting
+* Token-based splitting
+* Chroma vector database
+* MMR retrieval
+* LangChain prompt templates
+* LCEL chain composition
+* Source-aware answers
+* Streaming chatbot output
+
+This version demonstrates a more production-oriented RAG architecture using OpenAI, LangChain Expression Language, Chroma, and streaming responses.
 
 See the dedicated V2 README here:
 
+```text
 notebooks_v2_openAI/README.md
+```
 
 
 
